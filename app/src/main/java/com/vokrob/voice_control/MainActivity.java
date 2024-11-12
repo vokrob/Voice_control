@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
             case "протокол самоуничтожения":
                 protocolDist();
                 break;
-            case "Как зовут самого лучшего программиста в мире?":
+            case "Как зовут самого лучшего программиста в мире":
                 textToSpeech.speak("Самого лучшего программиста в мире зовут Данил Борков!",
                         TextToSpeech.QUEUE_FLUSH, null);
                 break;
